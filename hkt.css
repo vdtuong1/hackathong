@@ -1,0 +1,197 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header {
+    background-color: #ebe3e3 !important;
+}
+
+.all {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 80px;
+    background-color: #fff;
+    
+}
+
+.all-left {
+    display: flex;
+    align-items: center;
+}
+.all-left b{
+    font-size: 18px;
+    font-weight: bold;
+    position: relative;
+    top: 50%;
+
+}
+.all-left img{
+    height: 20px;
+}
+
+.class-center {
+    font-weight: 100;
+    color: #6991d6;
+}
+
+.class-center-list {
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+}
+
+.all-right {
+    border: 2px solid rgb(97, 187, 187);
+    display: flex;
+    flex-direction: row;
+    background-color: aliceblue;
+}
+.all-right p{
+    color: rgb(97, 187, 187);
+    display: flex;
+    
+    
+}
+
+.padder {
+display: flex;
+flex-direction: row-reverse;
+justify-content: center;
+gap:120px;
+
+}
+.padder img{
+    height: 848px;
+    width: 556px;
+}
+.padder-text {
+    display: flex;
+    flex-direction:column;
+    gap:15px;
+    align-items: center;
+    justify-content: center;
+    width: 500px;
+    margin-top: -60px;
+}
+.padder-text p{
+    font-size: 20px;
+    font-family: initial;
+    color: rgb(79, 90, 101);
+}
+.padder-text b{
+    font-family: 'DM Serif Display', serif;
+    font-size: 54px;
+    text-align: center;
+}
+.padder-text button{
+    background-color: rgb(97, 187, 187);
+    color: rgba(255, 255, 255, 0.827);
+    font-weight: 500;
+    border-radius: 7%;
+    border: rgb(97, 187, 187);
+    width: 130px;
+    height: 40px;
+}
+.school-top-right {
+ display: flex;
+ gap: 20px;
+ flex-direction: row;
+}
+
+li {
+    list-style: none;
+}
+.school-top-left {
+    display: flex;
+    flex-direction: column
+}
+.school-top-icon-list {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+.school-top {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 50px;
+}
+.school-top-right-ci {
+    color: blue;
+}
+.school-top-left b {
+    font-weight: bolder;
+    font-size: 20px;
+}
+.school-top-left p {
+  color: #6991d6;
+}
+.about {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+}
+.about-me {
+    display: flex;
+    flex-direction: column;
+    
+
+}
+.about-me-left {
+    display: flex;
+    flex-direction: row;
+}
+.about-me-right {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    gap: 50px;
+}
+.about-me-he {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+}
+.about-me-she {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+}
+.about-me-we {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+}
+.they {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #6991d6;
+    
+}
+.our {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.in {
+    font-weight: bold;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #fff;
+}
+.at {
+    font-weight: bold;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #fff;
+}
+.on {
+    font-weight: bold;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #fff;
+}
